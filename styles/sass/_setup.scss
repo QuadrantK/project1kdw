@@ -18,6 +18,21 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     // font-family: 'Montserrat', sans-serif;
 
     // typeography
+    
+    html p, nav {
+        font-size: 20px;
+        color: black;
+    }
+
+    p {
+        margin-bottom: 3%;
+    }
+
+    nav ul {
+        list-style: none;
+        color: white;
+    }
+
     h1 {
         font-family: "Abril Fatface";
         color: white;
@@ -34,6 +49,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
         font-family: "Abril Fatface";
         color: black;
         font-size: 24px;   
+        display: inline;
+        background-color: #e4a436;
+        padding: 1%;
     }
 
         nav, header {
@@ -46,5 +64,5 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
         font-size: 20px;
     }
 
-    
+
 

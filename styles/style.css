@@ -235,6 +235,20 @@ html {
   overflow: hidden;
 }
 
+html p, nav {
+  font-size: 20px;
+  color: black;
+}
+
+p {
+  margin-bottom: 3%;
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+}
+
 h1 {
   font-family: "Abril Fatface";
   color: white;
@@ -251,6 +265,9 @@ h3 {
   font-family: "Abril Fatface";
   color: black;
   font-size: 24px;
+  display: inline;
+  background-color: #e4a436;
+  padding: 1%;
 }
 
 nav, header {
@@ -274,4 +291,143 @@ nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+nav li {
+  margin: 1%;
+}
+nav li a {
+  list-style: none;
+  color: white;
+}
+
+.h1Img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circletextImg {
+  position: relative;
+  left: 60px;
+}
+
+.willowHeaderImg {
+  position: relative;
+}
+
+.who {
+  display: block;
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+
+.favThings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.favThingsImg {
+  background-color: #709b6b;
+  width: 50%;
+  height: auto;
+}
+.favThingsImg img {
+  width: 80%;
+  position: relative;
+  left: 15%;
+  bottom: 5%;
+}
+
+.favThingsText {
+  width: 50vw;
+  display: block;
+  text-align: left;
+  padding: 5%;
+}
+
+.bucketList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bucketListText {
+  text-align: right;
+  width: 50%;
+  padding: 5%;
+}
+
+.bucketListImg {
+  background-color: #345231;
+  width: 50%;
+  height: auto;
+}
+.bucketListImg img {
+  width: 80%;
+  position: relative;
+  bottom: 5%;
+  right: 2%;
+}
+
+.journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+  padding: 5%;
+}
+
+.journeyText {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding: 5%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.journeyImg {
+  background-color: #709b6b;
+}
+.journeyImg img {
+  position: relative;
+  bottom: 1%;
+  right: 3%;
+}
+
+.gallery {
+  margin: 0 auto;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
 }

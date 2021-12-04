@@ -1,14 +1,50 @@
 
+// This is the styling for my index page
+
 nav {
     color:white;
 }
 
 
-nav ul{
+nav {
+    ul {
     display: flex;
     justify-content: center;
-    
+    }
+
     li {
+        margin: 1%;
+    }
+
+    li a{
+        list-style: none;
+        color: white;
+        
 
     }
+}
+
+.h1Img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content:  space-around;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.circletextImg {
+    position: relative;
+    left: 60px;
+}
+
+.willowHeaderImg {
+    position: relative;
+   
+    
 }
