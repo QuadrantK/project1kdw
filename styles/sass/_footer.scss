@@ -1,0 +1,28 @@
+footer {
+display: flex;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.photoAbout {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// .photoIcon ul {
+//     display: inline-flex;
+    
+// }
+
+.blogContact {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.photo ul li {
+    display: inline-flex;
+}
