@@ -320,6 +320,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
+  height: 95vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -336,6 +337,12 @@ header {
 
 .willowHeaderImg {
   position: relative;
+  left: 55vw;
+}
+.willowHeaderImg img {
+  width: 30%;
+  position: absolute;
+  top: 10%;
 }
 
 .who {
@@ -771,4 +778,27 @@ h1 {
   position: relative;
   top: 40vh;
   left: 20vh;
+}
+
+.mainWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f6f6f6;
+}
+
+.aboutPosts {
+  width: 35 vw;
+  margin-left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogPosts {
+  padding: 0% 10% 10% 10%;
 }
