@@ -2,7 +2,9 @@
     width: 100vw;
     height: 50vh;
     background-color: none;
-    background-image: url(./blog-image-1.jpg);
+    background-image: url(blog-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     }
 

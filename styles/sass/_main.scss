@@ -1,13 +1,17 @@
 // Who is Willow
 
-.who {
-  display: block;
-    text-align: center;
-    margin: 5% auto 5% auto;
+main {
+    display: flex;
+    flex-direction: column;
 }
 
+.who {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    margin: 10% auto 10% auto;
+}
 
-// favorite things
 
 .favThings {
     display: flex;
@@ -24,7 +28,6 @@
             position: relative;
             left: 15%;
             bottom: 5%;
-
         }
 }
 

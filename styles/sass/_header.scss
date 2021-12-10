@@ -27,23 +27,31 @@ nav {
     }
 }
 
+h1 {
+    position: relative;
+    bottom: 50%;
+    align-items: center;
+}
+
 .h1Img {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+
 }
 
 header {
     display: flex;
     width: 100vw;
-    height: 95vh;
+    height: 60vh;
     justify-content:  space-around;
     align-items: center;
     margin: 0 auto;
     position: relative;
 }
 .circletextImg {
-    position: relative;
+    position: absolute;
+    top:30%;
     left: 60px;
 }
 
@@ -51,9 +59,10 @@ header {
     position: relative;  
     left: 55vw;
         img {
-            width: 30%;
+            width: 25%;
             position: absolute;
-            top: 10%;
+            top: -10vh;
+            left: 10%;
 
     }
 }
