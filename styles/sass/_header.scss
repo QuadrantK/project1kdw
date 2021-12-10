@@ -39,6 +39,11 @@ nav {
     position: relative;
     bottom: 100px;
     right: 100px;
+        @media (max-width: 600px) {
+        display: block;
+        position:relative;
+        width: 95vw;
+    }
 
 }
 
@@ -56,21 +61,28 @@ header {
     align-items: center;
     margin: 0 auto;
     position: relative;
+        @media (max-width: 600px) {
+            display: block;
+    
+    }
 }
 .circletextImg img{
-    position: absolute;
-    top:62%;
-    left:8%;
+    position: relative;
+    top:100%;
+    left:100%;
 }
 
 .willowHeaderImg {
     position: relative;  
     left: 55vw;
         img {
-            width: 25%;
-            position: absolute;
-            top: -10vh;
+            width: 300px;
+            height: auto;
+            position: relative;
+            top: 1%;
             left: 10%;
 
     }
 }
+
+

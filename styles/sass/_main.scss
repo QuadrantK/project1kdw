@@ -3,17 +3,24 @@
 main {
     display: flex;
     flex-direction: column;
+        
 }
 
 .who {
     display: inline;
     width: 100%;
     text-align: center;
-    margin: 10% auto 10% auto;
+    justify-content: center;
+    margin: 20% auto 20% auto;
     background-color: #f6f6f6;
-    padding: 5%;
+
+
 }
 
+h3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
 
 .favThings {
     display: flex;
@@ -142,3 +149,34 @@ i {
     border-radius: 25px;
     background: #e4a436;
 }
+
+
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+            .willowHeaderImg img {
+                position: relative;
+            }
+    }
+
+    .favThings {
+        display: flex;
+            .favThingsIMG {
+                display: block;
+            }
+        margin-top: 5%;
+
+    }
+
+
+    .gallery ul{
+        display: flex;
+        margin: 0 auto;
+        padding: 0 5%;
+            @media (max-width: 600px) {
+                flex-direction: column;
+
+        }
+    }

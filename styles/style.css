@@ -330,6 +330,13 @@ nav li a {
   bottom: 100px;
   right: 100px;
 }
+@media (max-width: 600px) {
+  .willowHeaderImg img {
+    display: block;
+    position: relative;
+    width: 95vw;
+  }
+}
 
 .h1Img {
   display: -webkit-inline-box;
@@ -354,11 +361,16 @@ header {
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 600px) {
+  header {
+    display: block;
+  }
+}
 
 .circletextImg img {
-  position: absolute;
-  top: 62%;
-  left: 8%;
+  position: relative;
+  top: 100%;
+  left: 100%;
 }
 
 .willowHeaderImg {
@@ -366,9 +378,10 @@ header {
   left: 55vw;
 }
 .willowHeaderImg img {
-  width: 25%;
-  position: absolute;
-  top: -10vh;
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 1%;
   left: 10%;
 }
 
@@ -386,9 +399,16 @@ main {
   display: inline;
   width: 100%;
   text-align: center;
-  margin: 10% auto 10% auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20% auto 20% auto;
   background-color: #f6f6f6;
-  padding: 5%;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 .favThings {
@@ -543,6 +563,45 @@ i {
   border: #e4a436 solid 5px;
   border-radius: 25px;
   background: #e4a436;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header .willowHeaderImg img {
+  position: relative;
+}
+
+.favThings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+.favThings .favThingsIMG {
+  display: block;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+@media (max-width: 600px) {
+  .gallery ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 footer {
