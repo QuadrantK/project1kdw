@@ -235,7 +235,7 @@ html {
   overflow: hidden;
 }
 
-html p, nav {
+html p {
   font-size: 20px;
   color: black;
 }
@@ -246,7 +246,17 @@ p {
 
 nav ul {
   list-style: none;
-  color: white;
+}
+
+.navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e4a436;
 }
 
 h1 {
@@ -280,6 +290,12 @@ p {
   font-size: 20px;
 }
 
+footer p {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
 nav {
   color: white;
   background-color: #345231;
@@ -296,31 +312,32 @@ nav ul {
 nav li {
   margin: 1%;
 }
+nav li:nth-of-type(3) {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.5rem;
+}
 nav li a {
   list-style: none;
   color: white;
   text-decoration: none;
   background-color: 345231;
+  margin: 5px;
 }
 
-h1 {
+.willowHeaderImg img {
+  background-color: #ffffff;
   position: relative;
-  bottom: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  bottom: 100px;
+  right: 100px;
 }
 
 .h1Img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 header {
@@ -338,10 +355,10 @@ header {
   position: relative;
 }
 
-.circletextImg {
+.circletextImg img {
   position: absolute;
-  top: 30%;
-  left: 60px;
+  top: 62%;
+  left: 8%;
 }
 
 .willowHeaderImg {
@@ -370,6 +387,8 @@ main {
   width: 100%;
   text-align: center;
   margin: 10% auto 10% auto;
+  background-color: #f6f6f6;
+  padding: 5%;
 }
 
 .favThings {
@@ -452,7 +471,7 @@ main {
 }
 
 .gallery {
-  margin: 0 auto;
+  margin: 0 5px;
 }
 .gallery ul {
   display: -webkit-box;
@@ -463,29 +482,11 @@ main {
   list-style: none;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer ul li {
-  list-style: none;
-}
-
 .photoAbout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.blogContact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -493,6 +494,60 @@ footer ul li {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blogContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.blog ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+i {
+  margin-left: 5px;
+  border: #e4a436 solid 5px;
+  border-radius: 25px;
+  background: #e4a436;
+}
+
+footer {
+  background-color: #050505;
+  color: #ffffff;
 }
 
 /* Blog Setup */
@@ -1165,9 +1220,13 @@ p {
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline;
+  background-color: #f6f6f6;
+}
+
+aside {
+  background-color: white;
+  width: 30vw;
 }
 
 aside ul {
@@ -1177,6 +1236,7 @@ aside ul li {
   text-decoration: none;
   list-style: none;
   margin: auto 5px;
+  padding: 1%;
 }
 
 .icons {
@@ -1195,17 +1255,27 @@ address ul li {
   display: block;
 }
 
+.contactWrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 .formWrapper {
+  margin-top: 5%;
   display: block;
+  width: 40vw;
 }
 
 .forms {
-  width: 100%;
-  display: inline;
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #cNameForm, #cEmailForm {
-  width: 60%;
+  width: 50%;
 }
 
 textarea {

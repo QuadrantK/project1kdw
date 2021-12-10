@@ -10,6 +10,8 @@ main {
     width: 100%;
     text-align: center;
     margin: 10% auto 10% auto;
+    background-color: #f6f6f6;
+    padding: 5%;
 }
 
 
@@ -89,10 +91,54 @@ main {
 
 // Glallery
     .gallery {
-        margin: 0 auto;
+        margin: 0 5px;
             ul{
                 display: flex;
                 justify-content: space-around;
                 list-style: none;
             }
     }
+
+    .photoAbout {
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .photo ul li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    }   
+
+.about ul li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.blogContact {
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+}
+
+.blog ul li{
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.contact ul li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+i {
+    margin-left: 5px;
+    border: #e4a436 solid 5px;
+    border-radius: 25px;
+    background: #e4a436;
+}

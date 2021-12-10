@@ -19,7 +19,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
     // typeography
     
-    html p, nav {
+    html p{
         font-size: 20px;
         color: black;
     }
@@ -30,7 +30,17 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
     nav ul {
         list-style: none;
-        color: white;
+        // color: white;
+    }
+
+    .navLinks {
+        display: flex;
+        color: #ffffff;
+        }
+
+
+    a:hover {
+        color: #e4a436;
     }
 
     h1 {
@@ -63,6 +73,12 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
         color: black;
         font-size: 20px;
     }
+
+    footer p {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
 
 
 

@@ -1,13 +1,21 @@
 
 main {
-    display: flex;
+    display: inline;
+    background-color: #f6f6f6;
 } 
+
+aside{
+    background-color: white;
+    width: 30vw;
+}
+
 aside ul {
     display: block;
         li {
             text-decoration: none;
             list-style: none;
             margin: auto 5px;
+            padding: 1%;
         }
 }
 
@@ -26,17 +34,23 @@ address ul li{
     display: block;
 }
 
+.contactWrapper {
+    display: inline-flex;
+}
+
 .formWrapper {
+    margin-top: 5%;
     display: block;
+    width: 40vw;
 } 
 
 .forms {
-    width: 100%;
-    display: inline;
+    width: 40vw;
+    display: flex;
 }
 
 #cNameForm, #cEmailForm {
-    width: 60%;
+    width: 50%;
 
 }
 

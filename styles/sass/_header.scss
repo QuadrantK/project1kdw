@@ -17,26 +17,34 @@ nav {
         margin: 1%;
     }
 
+    li:nth-of-type(3) {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.5rem;
+    }
+
     li a{
         list-style: none;
         color: white;
         text-decoration: none;
         background-color: 345231;
+        margin: 5px;
         
 
     }
 }
 
-h1 {
+
+.willowHeaderImg img {
+    background-color: #ffffff;
     position: relative;
-    bottom: 50%;
-    align-items: center;
+    bottom: 100px;
+    right: 100px;
+
 }
 
 .h1Img {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
 
 }
 
@@ -49,10 +57,10 @@ header {
     margin: 0 auto;
     position: relative;
 }
-.circletextImg {
+.circletextImg img{
     position: absolute;
-    top:30%;
-    left: 60px;
+    top:62%;
+    left:8%;
 }
 
 .willowHeaderImg {
