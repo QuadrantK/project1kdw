@@ -12,8 +12,8 @@
             href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran&family=Montserrat:wght@400;700&display=swap"
             rel="stylesheet">
         <script src="https://kit.fontawesome.com/b4dce5f8a4.js" crossorigin="anonymous"></script>
-        <script src="./blog.js"></script>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -66,8 +66,6 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius officia ab voluptatem? Ex tempora laudantium nam
                     nemo illum voluptas odio reiciendis optio, placeat libero fuga amet repudiandae ullam tempore labore.</p>
 
-                <h4 id= "nameDisplay"></h4>
-                <p id= "newPost"></p>
                 
             </div>
             <div class="oldPost2">
@@ -78,21 +76,34 @@
                     <p>Wednesday October 10th, 2021 by Daisy</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nobis temporibus, at modi esse enim nemo
                     quod sit voluptate, quaerat ab eaque eos. Harum corporis amet, illum porro voluptatum sint.</p>
+
+                    <ul></ul>
+
+
                         <div class="forms">
-                            <input type="text" name="nameForm" id="nameForm" placeholder="Name">
-                            <input type="email" name="emailForm" id="nameForm" placeholder="Email Address">
+                            <form>
+                                <input type="text" name="nameForm" id="nameForm" placeholder="Name">
+                            </form>
+                            <form>    
+                                <input type="email" name="emailForm" id="nameForm" placeholder="Email Address">
+                            </form>
                         </div>
                         <div class ="commentFormBox">
-                            <label for="commentBox"></label>
-                            <textarea name="commentBox" id="commentBox" placeholder= "Comments" cols="30" rows="10"></textarea>
-                            <a href="#"><h3>POST COMMENT</h3></a>
+                            <form>
+                                <label for="commentBox"></label>
+                                <textarea name="commentBox" id="commentBox" placeholder= "Comments" cols="30" rows="10"></textarea>
+                            </form>
+                            <button id ="commentButton">POST COMMENT</button>
                         </div>
                         
             
                 </div> 
         </section>
+       
 
     </Main>
+
+<script src="./blog.js"></script>
 </body>
 
 <footer>
